@@ -1,0 +1,14 @@
+name: buckbuck API
+
+on:
+  push:
+    branches: [ "develop" ]
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
