@@ -1,5 +1,0 @@
-name: buckbuck API
-
-on:
-  push:
-    branches: [ "main" ]
