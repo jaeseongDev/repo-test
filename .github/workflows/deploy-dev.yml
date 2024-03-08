@@ -2,7 +2,7 @@ name: buckbuck API
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "develop" ]
 
 jobs:
   deployment:
